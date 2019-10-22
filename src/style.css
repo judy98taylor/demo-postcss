@@ -1,0 +1,33 @@
+@media screen and (min-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
+#main {
+  border: 1px solid black;
+}
+
+ul li {
+  padding: 5px;
+}
+
+p {
+  color: red;
+}
+
+.testPrefix {
+  display: flex;
+  transform: all 1s;
+}
+
+.hello {
+  color: red;
+}
+
+/* div {
+  color: aqua;
+  a {
+    color: red;
+  }
+} */

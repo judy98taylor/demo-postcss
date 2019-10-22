@@ -2,8 +2,10 @@
   "name": "demo-postcss",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
+    "start": "webpack --config ./webpack.config.js --display-modules",
+    "build": "webpack --color --display-modules",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +18,19 @@
   "bugs": {
     "url": "https://github.com/zd9027/demo-postcss/issues"
   },
-  "homepage": "https://github.com/zd9027/demo-postcss#readme"
+  "homepage": "https://github.com/zd9027/demo-postcss#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.6.5",
+    "css-loader": "^3.2.0",
+    "json-to-ast": "^2.1.0",
+    "postcss-js": "^2.0.3",
+    "postcss-loader": "^3.0.0",
+    "precss": "^4.0.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
 }
